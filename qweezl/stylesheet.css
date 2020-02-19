@@ -1,3 +1,4 @@
+
 *{
    margin: 0px;
    padding: 0px;
@@ -6,4 +7,51 @@
 ul li{
    text-decoration: none;
    list-style:none;
+}
+header{
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   height: 100px;
+   width: 100vw;
+   background-color: rgba(0, 0, 0, 0.03);
+}
+.logo{
+   display: inline-block;
+   font-size: 25px;
+   float: left;
+   margin-left: 3rem;
+}
+
+header nav ul{
+
+   width: fit-content;
+   float: right;
+
+
+}
+
+header nav ul li {
+   display: inline;
+   text-transform: uppercase;
+
+}
+header nav ul li a, .logo{
+   line-height: 100px;
+
+
+   display: inline-block;
+   text-decoration: none;
+}
+
+header nav ul li a{
+   float:left;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   transition: ease;
+   font-size: 20px;
+}
+
+header nav ul li a:hover{
+   color: #f1f1f1;
+   background-color: black;
 }
