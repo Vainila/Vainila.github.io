@@ -61,6 +61,7 @@ header nav ul li a:hover{
    background-color: aqua;
    background-position:center;
    background-size:cover;
+   position: relative;
 }
 
 .banner h1{
@@ -80,7 +81,7 @@ header nav ul li a:hover{
 .banner-text{
 
    /*padding-left: 10rem;*/
-   padding-top: 20px;
+   padding-top: 10px;
    color: ;
    text-align: right;
    color: black;
@@ -92,9 +93,9 @@ header nav ul li a:hover{
 }
 
 .banner-text-container{
+   position: absolute;
    margin-top: 0.5%;
-
-   height: 6rem;
+   height: 100px;
    background-color: #efaf37;
    width: 100%;
    vertical-align: middle-align:
