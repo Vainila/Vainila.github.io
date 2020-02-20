@@ -81,13 +81,18 @@ header nav ul li a:hover{
    text-align: right;
    font-stretch:expanded;
 }
-
-.banner-text-container{
+.banner-text-container1{
+   width: 50%;
+   background-color: pink;
+   float: right;
+   
+}
+.banner-text-container2{
 
    height: 100px;
    background-color: #efaf37;
    width: 100%;
-   
+
 
 }
 
