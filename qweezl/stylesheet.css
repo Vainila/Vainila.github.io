@@ -13,7 +13,7 @@ header{
    font-family: 'Montserrat', sans-serif;
    height: 50px;
    width: 100vw;
-   background-color: rgba(0, 0, 0, 0.03);
+   background-color: rgba(0, 0, 0, 1);
 }
 .logo{
    display: inline-block;
@@ -38,6 +38,7 @@ header nav ul li a, .logo{
    line-height: 50px;
    display: inline-block;
    text-decoration: none;
+   color: white;
 }
 
 header nav ul li a{
@@ -47,58 +48,59 @@ header nav ul li a{
    padding-right: 3rem;
    transition: ease;
    font-size: 20px;
+
 }
 header nav ul li a:hover{
    /*color: #f1f1f1;*/
-   background-color: rgba(0, 0, 0, 0.05);
+   background-color: rgba(255,255,255,0.15);
+   color: white;
 }
 
 .banner{
-   background-image: url('4.jpg');
-   width: 100vw;
+   /*4*/
+   /*22*/
+   background-image: url('2.jpg');
+   width: 100%;
    background-repeat: no-repeat;
    height: calc(100vh - 50px);
    background-color: aqua;
    background-position:center;
    background-size:cover;
-   position: relative;
+
 }
 
 .banner h1{
    /*color: #FFBE42;
    text-shadow: 0 0 15px #c38817;*/
-   letter-spacing:0.06em;
    display: block;
    text-transform: uppercase;
    font-family: Montserrat;
    font-size: 5rem;
-   padding-top: 6rem;
-   padding-right: 1rem;
+   padding-top: 5rem;
+
    text-align: right;
    font-stretch:expanded;
+}
+
+.banner-text-container{
+
+   height: 100px;
+   background-color: #efaf37;
+   width: 100%;
+   
+
 }
 
 .banner-text{
 
    /*padding-left: 10rem;*/
-   padding-top: 10px;
+
    color: ;
    text-align: right;
    color: black;
    /*background-color: black;
    color: white;
    */
-
-
-}
-
-.banner-text-container{
-   position: absolute;
-   margin-top: 0.5%;
-   height: 100px;
-   background-color: #efaf37;
-   width: 100%;
-   vertical-align: middle-align:
 
 
 }
