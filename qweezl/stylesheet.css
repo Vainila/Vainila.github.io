@@ -19,7 +19,7 @@ header{
    display: inline-block;
    font-size: 25px;
    float: left;
-   margin-left: 3rem;
+   margin-left: 60px;
    font-weight: 900;
    /*letter-spacing: 0.5em;*/
 }
@@ -94,33 +94,27 @@ header nav ul li a:hover{
 
 }
 
-.banner-text-container1 h1{
-   padding-bottom: 1.8rem;
-   text-align: right;
-   color: black;
-   margin-right: 2rem;
-
-}
 .banner-text-container2{
-   margin-top: 2%;
-   height: 90px;
-   /*background-color: #efaf37;*/
-   background-color: white;
-   width: 80%;
-   vertical-align:middle;
-   padding-right: 0.5%;
-   box-shadow: 3px 3px  5px;
+   font-size: 25px;
+   width: 50%;
+   display: block;
+   float:right;
+   margin-top: 10%;
 }
-
+.banner-text-container2 p{
+   color: black;
+   text-align: right;
+}
 
 
 
 .banner-text{
    line-height: 31px;
    align-items: center;
-   
+
    text-align: right;
    color: black;
+   font-family: Aqum;
    /*background-color: black;
    color: white;
    */
