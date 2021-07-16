@@ -1,0 +1,41 @@
+
+@media (max-width : 550px) {
+
+  html{
+    background: black;
+
+  }
+
+  body{
+    background: url(/img/landscape.jpg);
+    background-position-x: 47%;
+    background-size: cover;
+    
+  }
+
+
+
+
+
+  .page{
+    backdrop-filter: none;
+    background: rgba(116, 116, 116, 0.3);
+    background: none;
+  }
+  .header{
+    background: none;
+    &__h1{
+      word-break: break-word;
+      max-width: unset;
+    }
+  }
+
+
+  .main{
+    ul{
+      max-width: max-content;
+    }
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, 500px);
+  }
+}
