@@ -32,10 +32,32 @@
 
 
   .main{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
     ul{
       max-width: max-content;
     }
-    grid-template-columns: auto;
-    grid-template-rows: repeat(6, 500px);
+    
   }
+  
+  .experience{
+     height: auto;    
+  }
+   .edu{
+      display: flex;
+      flex-direction: column;
+      .education.element{
+         height: auto;
+      }
+      .element{
+         height: 50px;
+         
+      }
+      .english{
+         width: 200px;
+      }
+   }  
+
 }

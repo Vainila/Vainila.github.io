@@ -128,6 +128,9 @@ body {
 .experience ul li {
   margin-bottom: 1rem;
 }
+.experience ul li:last-child {
+  margin-bottom: 0;
+}
 
 .summary {
   line-height: 1.5rem;
@@ -213,11 +216,31 @@ footer h2 {
   }
 
   .main {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(6, 500px);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .main ul {
     max-width: max-content;
+  }
+
+  .experience {
+    height: auto;
+  }
+
+  .edu {
+    display: flex;
+    flex-direction: column;
+  }
+  .edu .education.element {
+    height: auto;
+  }
+  .edu .element {
+    height: 50px;
+  }
+  .edu .english {
+    width: 200px;
   }
 }
 

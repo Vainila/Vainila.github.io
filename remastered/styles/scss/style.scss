@@ -139,6 +139,9 @@ body{
   ul li{
     margin-bottom: 1rem;
   }  
+  ul li:last-child{
+     margin-bottom: 0;
+  }
 }
 
 .summary{
